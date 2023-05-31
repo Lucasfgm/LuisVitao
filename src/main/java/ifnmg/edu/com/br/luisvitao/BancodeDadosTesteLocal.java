@@ -8,8 +8,8 @@ package ifnmg.edu.com.br.luisvitao;
  *
  * @author Lucas Flavio<lucasfgm at ifnmg.edu.br>
  */
-public interface ProdutoDAO {
+public interface BancodeDadosTesteLocal {
     
-    public void salvar (Produto produto);
+    void popularBanco();
     
 }

@@ -135,8 +135,10 @@ public class Produto implements Serializable {
 
     @Override
     public String toString() {
-        return "ifnmg.edu.com.br.luisvitao.Produto[ id=" + id + " ]";
+        return "Produto{" + "id=" + id + ", nome=" + nome + ", preco=" + preco + ", quantidade=" + quantidade + ", categoria=" + categoria + ", sexo=" + sexo + ", tamanho=" + tamanho + '}';
     }
+
+    
     
 }
 //</editor-fold>
