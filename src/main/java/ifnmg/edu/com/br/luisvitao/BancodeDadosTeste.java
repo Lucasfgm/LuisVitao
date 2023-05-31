@@ -4,7 +4,9 @@
  */
 package ifnmg.edu.com.br.luisvitao;
 
-import javax.ejb.Stateless;
+import javax.annotation.PostConstruct;
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
 import javax.inject.Inject;
 
 /**
@@ -12,13 +14,14 @@ import javax.inject.Inject;
  * @author Lucas Flavio<lucasfgm at ifnmg.edu.br>
  */
 
-@Stateless
+@Singleton
+@Startup
 public class BancodeDadosTeste implements BancodeDadosTesteLocal{
     
   @Inject
   private ProdutoServiceLocal produtoService;
   
-    
+  @PostConstruct  
   @Override
   public void popularBanco(){
       
