@@ -1,10 +1,8 @@
 ifnmg\edu\com\br\luisvitao\BancodeDadosTesteLocal.class
 ifnmg\edu\com\br\luisvitao\ProdutoServiceLocal.class
-ifnmg\edu\com\br\luisvitao\resources\JavaEE8Resource.class
 ifnmg\edu\com\br\luisvitao\ProdutoService.class
 ifnmg\edu\com\br\luisvitao\Tamanho.class
 ifnmg\edu\com\br\luisvitao\Sexo.class
 ifnmg\edu\com\br\luisvitao\BancodeDadosTeste.class
-ifnmg\edu\com\br\luisvitao\JAXRSConfiguration.class
 ifnmg\edu\com\br\luisvitao\Categoria.class
 ifnmg\edu\com\br\luisvitao\Produto.class
