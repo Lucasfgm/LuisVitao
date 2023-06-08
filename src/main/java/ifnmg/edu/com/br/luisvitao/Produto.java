@@ -5,10 +5,13 @@
 package ifnmg.edu.com.br.luisvitao;
 
 import java.io.Serializable;
+import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
 
 /**
  *
@@ -33,6 +36,13 @@ public class Produto implements Serializable {
     private Sexo sexo;
     
     private Tamanho tamanho;
+    
+    
+    @ManyToMany(mappedBy = "produto")
+    private List<Carrinho> carrinho;
+    
+    
+    
     
     //<editor-fold defaultstate="collapsed" desc="Construtores">
     public Produto() {
@@ -107,6 +117,14 @@ public class Produto implements Serializable {
 
     public void setTamanho(Tamanho tamanho) {
         this.tamanho = tamanho;
+    }
+
+    public List<Carrinho> getCarrinho() {
+        return carrinho;
+    }
+
+    public void setCarrinho(List<Carrinho> carrinho) {
+        this.carrinho = carrinho;
     }
     
     
