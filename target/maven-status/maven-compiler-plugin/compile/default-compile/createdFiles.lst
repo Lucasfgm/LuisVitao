@@ -1,8 +1,12 @@
 ifnmg\edu\com\br\luisvitao\BancodeDadosTesteLocal.class
+ifnmg\edu\com\br\luisvitao\Sexo.class
+ifnmg\edu\com\br\luisvitao\Cliente.class
+ifnmg\edu\com\br\luisvitao\Categoria.class
+ifnmg\edu\com\br\luisvitao\Funcionario.class
+ifnmg\edu\com\br\luisvitao\Produto.class
+ifnmg\edu\com\br\luisvitao\Endereco.class
 ifnmg\edu\com\br\luisvitao\ProdutoServiceLocal.class
 ifnmg\edu\com\br\luisvitao\ProdutoService.class
+ifnmg\edu\com\br\luisvitao\Usuario.class
 ifnmg\edu\com\br\luisvitao\Tamanho.class
-ifnmg\edu\com\br\luisvitao\Sexo.class
 ifnmg\edu\com\br\luisvitao\BancodeDadosTeste.class
-ifnmg\edu\com\br\luisvitao\Categoria.class
-ifnmg\edu\com\br\luisvitao\Produto.class
