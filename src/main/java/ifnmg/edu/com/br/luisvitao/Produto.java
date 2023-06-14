@@ -44,6 +44,7 @@ public class Produto implements Serializable {
     
     
     
+    
     //<editor-fold defaultstate="collapsed" desc="Construtores">
     public Produto() {
     }

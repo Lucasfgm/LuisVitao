@@ -6,6 +6,7 @@ package ifnmg.edu.com.br.luisvitao;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -28,7 +29,7 @@ public class Cliente implements Serializable {
     private String nomeCompleto;
     
     @OneToMany
-    private Endereco endereco;
+    private List<Endereco> endereco;
     
     private String cpf;
     
@@ -59,11 +60,11 @@ public class Cliente implements Serializable {
         this.nomeCompleto = nomeCompleto;
     }
 
-    public Endereco getEndereco() {
+    public List<Endereco> getEndereco() {
         return endereco;
     }
 
-    public void setEndereco(Endereco endereco) {
+    public void setEndereco(List<Endereco> endereco) {
         this.endereco = endereco;
     }
 
