@@ -5,6 +5,7 @@ ifnmg\edu\com\br\luisvitao\Categoria.class
 ifnmg\edu\com\br\luisvitao\Funcionario.class
 ifnmg\edu\com\br\luisvitao\Produto.class
 ifnmg\edu\com\br\luisvitao\Endereco.class
+ifnmg\edu\com\br\luisvitao\ProdutoController.class
 ifnmg\edu\com\br\luisvitao\ProdutoServiceLocal.class
 ifnmg\edu\com\br\luisvitao\ProdutoService.class
 ifnmg\edu\com\br\luisvitao\Usuario.class
